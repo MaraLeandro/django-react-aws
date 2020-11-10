@@ -1,61 +1,11 @@
-*.pyc
-/backend/db.sqlite3
-.DS_Store
-.env
-*/settings/local.py
-/staticfiles/*
-/mediafiles/*
-__pycache__/
-/.vscode/
-
-# db migrations and aws config
-/uploadapp/migrations/*
-/uploadapp/aws_config.py
-/uploadapp/config.py
-/folderapp/migrations/*
-/accounts/migrations/*
-
-/backend/settings/base.py
-/backend/settings/dev.py
-/src/config.js
-# coverage result
-.coverage
-/coverage/
-
-# pycharm
-.idea/
-
-# data
-*.dump
-
-# npm
-node_modules/
-npm-debug.log
-package-lock.json
-# Webpack
-/frontend/bundles/*
-/frontend/webpack_bundles/*
-/webpack-stats.json
-/jquery-webpack-stats.json
+env
+**/*.pyc
+**/__pycache__
+db.sqlite3
+node_modules
 build
-
-# Sass
-.sass-cache
-*.map
-
-# General
-/theprojectname-venv/
-venv/
-env/
-/output/
-/cache/
-boilerplate.zip
-
-# Spritesmith
-spritesmith-generated/
-spritesmith.scss
-
-# templated email
-tmp_email/
-freeze
-build/asset-manifest.json
+static
+package-lock.jsonvenv/
+venv/*
+.vscode
+settings.json
